@@ -9,9 +9,10 @@
 import UIKit
 import CoreData
 
-class productTVC: UITableViewController {
+class productTVC: UITableViewController ,UISearchBarDelegate{
     
- //var vc: ViewController?
+    @IBOutlet weak var searchbar: UISearchBar!
+    //var vc: ViewController?
     var p : Product?
  let appDelegate = UIApplication.shared.delegate as! AppDelegate
  var results : [NSManagedObject]?
@@ -35,6 +36,25 @@ class productTVC: UITableViewController {
         // #warning Incomplete implementation, return the number of sections
         return 1
     }
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+            
+              let contex = appDelegate.persistentContainer.viewContext
+                     
+              let getreq = NSFetchRequest<NSFetchRequestResult>(entityName: "ProductList")
+               do{
+                      if !searchText.isEmpty{
+                          getreq.predicate = NSPredicate(format: "title contains[c] %@", searchText)
+                          }
+                      if results is [NSManagedObject]{
+                             results = try contex.fetch(getreq) as! [NSManagedObject]
+                             tableView.reloadData()
+                      }
+                  }catch{
+                         print(error)
+                     }
+                  
+            
+          }
    
     func loadCoreData() {
          
@@ -50,7 +70,7 @@ class productTVC: UITableViewController {
                        let id = result.value(forKey: "id") as! Int
                        let price = result.value(forKey: "price") as! Int
                        let desc = result.value(forKey: "desc") as! String
-                       print(name)
+                      // print(name)
                     Product.list.append(Product(name: name, price: price, id: id, desc: desc))
                    }
                
