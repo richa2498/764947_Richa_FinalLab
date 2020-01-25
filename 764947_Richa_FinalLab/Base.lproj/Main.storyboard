@@ -282,6 +282,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="fOG-gO-LCA"/>
         <segue reference="Yxc-dq-Q0N"/>
         <segue reference="OVb-AY-vae"/>
     </inferredMetricsTieBreakers>

@@ -72,6 +72,7 @@ class productTVC: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let p = Product.list[indexPath.row]
         cell.textLabel?.text = p.name
+        cell.detailTextLabel?.text = "\(p.price)"
             
         return cell
     }
