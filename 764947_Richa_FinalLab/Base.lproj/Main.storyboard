@@ -40,7 +40,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="Yxc-dq-Q0N"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dbg-Kn-Ecm"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -228,7 +228,7 @@
                                 <rect key="frame" x="163" y="141" width="112" height="30"/>
                                 <state key="normal" title="View All product"/>
                                 <connections>
-                                    <segue destination="ZeQ-ie-jQT" kind="show" id="NZ0-ok-kwf"/>
+                                    <segue destination="ZeQ-ie-jQT" kind="show" id="sUa-R4-SQO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -282,8 +282,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fOG-gO-LCA"/>
-        <segue reference="Yxc-dq-Q0N"/>
-        <segue reference="OVb-AY-vae"/>
+        <segue reference="dbg-Kn-Ecm"/>
+        <segue reference="sUa-R4-SQO"/>
     </inferredMetricsTieBreakers>
 </document>

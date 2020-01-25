@@ -27,16 +27,16 @@ class ViewController: UIViewController {
         if Product.list.count > 9{
             return
         }else{
-        Product.list.append(Product(name: "Ppesi", price: 5, id: 1, desc: "i love to drnik"))
-        Product.list.append(Product(name: "chocolate", price: 58, id: 2, desc: "i love to eat"))
-        Product.list.append(Product(name: "ice cream", price: 5, id: 3, desc: "i love to eat"))
-        Product.list.append(Product(name: "pizza", price: 5, id: 4, desc: "i love to eat"))
-        Product.list.append(Product(name: "Cola", price: 5, id: 5, desc: "i love to drnik"))
-        Product.list.append(Product(name: "pop corn", price: 5, id: 6, desc: "i love to eat"))
-        Product.list.append(Product(name: "Ppesi", price: 5, id: 7, desc: "i love to drnik"))
-            Product.list.append(Product(name: "wings", price: 5, id: 8, desc: "i love to eats"))
-            Product.list.append(Product(name: "ok", price: 5, id: 9, desc: "i love to no"))
-            Product.list.append(Product(name: "dry", price: 5, id: 10, desc: "i love to drink"))
+        Product.list.append(Product(name: "Ppesi", price: 50, id: 1, desc: "i love to drnik"))
+        Product.list.append(Product(name: "chocolate", price: 158, id: 2, desc: "i love to eat"))
+        Product.list.append(Product(name: "ice cream", price: 54, id: 3, desc: "i love to eat"))
+        Product.list.append(Product(name: "pizza", price: 51, id: 4, desc: "i love to eat"))
+        Product.list.append(Product(name: "Cola", price: 25, id: 5, desc: "i love to drnik"))
+        Product.list.append(Product(name: "pop corn", price: 55, id: 6, desc: "i love to eat"))
+        Product.list.append(Product(name: "Ppesi", price: 75, id: 7, desc: "i love to drnik"))
+            Product.list.append(Product(name: "wings", price: 85, id: 8, desc: "i love to eats"))
+            Product.list.append(Product(name: "ok", price: 95, id: 9, desc: "i love to no"))
+            Product.list.append(Product(name: "dry", price: 75, id: 10, desc: "i love to drink5"))
         }
         //print(Product.list)
         view_btn.isHidden = false
