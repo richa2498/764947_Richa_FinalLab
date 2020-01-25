@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9930BA323DBCC76008D9A05 /* productADD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9930BA223DBCC76008D9A05 /* productADD.swift */; };
 		E9C0527C23DBB6C100E90705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0527B23DBB6C100E90705 /* AppDelegate.swift */; };
 		E9C0527E23DBB6C100E90705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0527D23DBB6C100E90705 /* SceneDelegate.swift */; };
 		E9C0528023DBB6C100E90705 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0527F23DBB6C100E90705 /* ViewController.swift */; };
@@ -14,9 +15,12 @@
 		E9C0528623DBB6C100E90705 /* _64947_Richa_FinalLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9C0528423DBB6C100E90705 /* _64947_Richa_FinalLab.xcdatamodeld */; };
 		E9C0528823DBB6C200E90705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C0528723DBB6C200E90705 /* Assets.xcassets */; };
 		E9C0528B23DBB6C200E90705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C0528923DBB6C200E90705 /* LaunchScreen.storyboard */; };
+		E9C0529323DBB72A00E90705 /* productTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0529223DBB72A00E90705 /* productTVC.swift */; };
+		E9C0529523DBB7C500E90705 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C0529423DBB7C500E90705 /* product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9930BA223DBCC76008D9A05 /* productADD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productADD.swift; sourceTree = "<group>"; };
 		E9C0527823DBB6C100E90705 /* 764947_Richa_FinalLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 764947_Richa_FinalLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C0527B23DBB6C100E90705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C0527D23DBB6C100E90705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		E9C0528723DBB6C200E90705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9C0528A23DBB6C200E90705 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C0528C23DBB6C200E90705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C0529223DBB72A00E90705 /* productTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productTVC.swift; sourceTree = "<group>"; };
+		E9C0529423DBB7C500E90705 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				E9C0528923DBB6C200E90705 /* LaunchScreen.storyboard */,
 				E9C0528C23DBB6C200E90705 /* Info.plist */,
 				E9C0528423DBB6C100E90705 /* _64947_Richa_FinalLab.xcdatamodeld */,
+				E9C0529223DBB72A00E90705 /* productTVC.swift */,
+				E9C0529423DBB7C500E90705 /* product.swift */,
+				E9930BA223DBCC76008D9A05 /* productADD.swift */,
 			);
 			path = 764947_Richa_FinalLab;
 			sourceTree = "<group>";
@@ -143,8 +152,11 @@
 			files = (
 				E9C0528023DBB6C100E90705 /* ViewController.swift in Sources */,
 				E9C0528623DBB6C100E90705 /* _64947_Richa_FinalLab.xcdatamodeld in Sources */,
+				E9C0529323DBB72A00E90705 /* productTVC.swift in Sources */,
+				E9C0529523DBB7C500E90705 /* product.swift in Sources */,
 				E9C0527C23DBB6C100E90705 /* AppDelegate.swift in Sources */,
 				E9C0527E23DBB6C100E90705 /* SceneDelegate.swift in Sources */,
+				E9930BA323DBCC76008D9A05 /* productADD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "riyu.-64947-Richa-FinalLab";
+				PRODUCT_BUNDLE_IDENTIFIER = richa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -313,7 +325,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "riyu.-64947-Richa-FinalLab";
+				PRODUCT_BUNDLE_IDENTIFIER = richa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
